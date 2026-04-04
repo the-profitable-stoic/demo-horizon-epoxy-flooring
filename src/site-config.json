@@ -1,0 +1,556 @@
+{
+  "business": {
+    "name": "Horizon Epoxy Flooring",
+    "phone": "555-epo-r90",
+    "category": "epoxy-flooring",
+    "city": "Minneapolis",
+    "state": "MN"
+  },
+  "design": {
+    "preset": {
+      "id": "epoxy-flooring-trust-navy",
+      "categoryGroup": "epoxy-flooring",
+      "name": "Trust Navy",
+      "recipeFile": "epoxy-flooring/trust-navy.astro",
+      "colors": {
+        "primary": "#4F46E5",
+        "primaryDark": "#3730A3",
+        "primaryLight": "#d3d1f9",
+        "secondary": "#433cc3",
+        "accent": "#06B6D4",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#4F46E5",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Raleway",
+        "headingWeight": "700",
+        "bodyFont": "Open Sans",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "epoxy-flooring/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Premium Epoxy Flooring for Minneapolis Homes",
+      "heroSubline": "Transforming floors with durable, weather-resistant epoxy solutions. Built to withstand Minnesota's extreme winters and humid summers.",
+      "aboutTitle": "Our Minneapolis Epoxy Legacy",
+      "aboutText": [
+        "Founded in 2012, Horizon Epoxy Flooring began with a mission to protect and beautify Twin Cities floors against harsh Midwestern weather.",
+        "We pioneered cold-climate epoxy formulations that resist cracking from freeze-thaw cycles, combining German chemical technology with local craftsmanship.",
+        "When we're not installing floors, you'll find our team volunteering at Habitat for Humanity builds or sponsoring youth hockey teams across Hennepin County."
+      ],
+      "valueProps": [
+        {
+          "title": "Arctic-Grade Formulations",
+          "description": "Specialized epoxy blends that stay flexible at -30°F to prevent winter cracking."
+        },
+        {
+          "title": "Historic Home Experts",
+          "description": "Gentle techniques for preserving original floors in Craftsman and Victorian homes."
+        },
+        {
+          "title": "Stormproof Finishes",
+          "description": "Slip-resistant textures that handle melted snow and summer humidity without degradation."
+        },
+        {
+          "title": "Basement Specialists",
+          "description": "Moisture-blocking systems crucial for Minnesota's below-grade spaces."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Free Floor Assessment",
+      "ctaSubline": "Our Minneapolis-based team will evaluate your space and recommend the ideal solution for your home's needs."
+    },
+    "services": [
+      {
+        "slug": "garage-floor-epoxy",
+        "name": "Garage Floor Epoxy",
+        "shortDescription": "Heavy-duty protection against road salt, oil stains, and subzero temperatures.",
+        "description": "Minnesota garages face unique challenges - from winter road salt corrosion to summer humidity warping. Our 3-layer system starts with diamond grinding to expose pores in your concrete, followed by moisture-blocking primer specifically formulated for our climate. The final coat contains aluminum oxide for abrasion resistance against snow tires and hockey gear.\n\nFor Plymouth homes with 1970s-era garages, we address common issues like spalling concrete with polyurethane crack injections before application. In Eden Prairie's newer developments, we often incorporate decorative quartz blends that complement modern architecture.",
+        "process": [
+          "Step 1: 48-hour moisture test with digital hygrometer",
+          "Step 2: Mechanical profiling with diamond grinders",
+          "Step 3: Application of thermal-break primer",
+          "Step 4: UV-cured topcoat with custom flake options"
+        ],
+        "benefits": [
+          "Eliminates concrete dust in finished basements",
+          "Withstands freeze-thaw cycling",
+          "Reduces ice formation on floor surfaces",
+          "Resists gasoline and de-icing chemicals"
+        ],
+        "faq": [
+          {
+            "question": "How does your epoxy handle Minnesota's temperature swings?",
+            "answer": "Our proprietary FlexTec formula contains polymer microspheres that expand/contract with temperature changes, preventing the cracking commonly seen with standard epoxies after just one winter."
+          },
+          {
+            "question": "Can you match my home's mid-century aesthetic?",
+            "answer": "Absolutely. We offer 60+ vintage-inspired color combinations and can recreate classic terrazzo patterns popular in 1950s Minneapolis ramblers."
+          },
+          {
+            "question": "Will salt from my tires damage the finish?",
+            "answer": "Not with our SaltShield topcoat technology - laboratory tested to resist calcium chloride damage at concentrations 5x higher than typical road treatment levels."
+          }
+        ]
+      },
+      {
+        "slug": "basement-floor-coating",
+        "name": "Basement Floor Coating",
+        "shortDescription": "Moisture-proof floors for finished basements and rec rooms.",
+        "description": "Over 80% of Minneapolis basements experience moisture intrusion annually. Our vapor-barrier system uses military-grade membranes tested at the U of M's Cold Climate Housing Lab. Unlike traditional epoxy that bubbles when moisture rises through slabs, our breathable barrier layer channels vapor to perimeter drains while maintaining a bone-dry surface.\n\nFor St. Paul's historic districts, we use low-VOC coatings that meet strict preservation guidelines. In Bloomington's 1960s ranch homes, we often integrate radiant heat cables beneath the coating for year-round comfort. The matte finish options reduce glare from basement LED lighting while hiding inevitable scuffs from storage bins and exercise equipment.",
+        "process": [
+          "Step 1: PH testing to detect concrete alkalinity",
+          "Step 2: Electro-osmotic pulse treatment for active leaks",
+          "Step 3: Application of breathable epoxy membrane",
+          "Step 4: Texture application for barefoot comfort"
+        ],
+        "benefits": [
+          "Prevents mold growth in high-humidity months",
+          "Eliminates musty basement odors",
+          "Creates seamless surface for home gyms",
+          "Allows moisture escape without blistering"
+        ],
+        "faq": [
+          {
+            "question": "My basement floods occasionally - is epoxy still an option?",
+            "answer": "Yes - our AquaRelease system actually performs better in flood-prone areas. The semi-permeable coating allows water to evaporate without trapping it against the concrete."
+          },
+          {
+            "question": "How does this compare to basement tiles?",
+            "answer": "Unlike tiles that shift during ground freeze cycles, our monolithic surface won't develop trip hazards or allow moisture between seams - crucial for Minnesota's active frost line."
+          },
+          {
+            "question": "Can you work around existing mechanical systems?",
+            "answer": "Our technicians are trained to carefully coat around water heaters, furnaces, and support columns with precision tools - we never take shortcuts that would void appliance warranties."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-epoxy",
+        "name": "Commercial Epoxy Flooring",
+        "shortDescription": "Code-compliant solutions for retail, breweries, and medical facilities.",
+        "description": "From North Loop microbreweries dealing with constant wet conditions to Edina medical offices needing seamless sterile surfaces, we engineer industry-specific solutions. Our FDA-compliant epoxy meets Mayo Clinic cleanliness standards with antimicrobial additives, while the brewery-grade formulation resists constant pH fluctuations from malt acids and floor cleaners.\n\nThe high-traffic patterns at Mall of America retailers inspired our WearGuard technology - a ceramic-infused topcoat that lasts 3x longer than conventional epoxy under shopping cart traffic. For restaurants in Linden Hills, we incorporate slip-resistant aggregates that maintain traction even when kitchen grease meets melted snow tracked in by staff.",
+        "process": [
+          "Step 1: Industry-specific risk assessment (slip factors, chemical exposure)",
+          "Step 2: Mechanical preparation with shot blasting",
+          "Step 3: Custom aggregate blending for performance needs",
+          "Step 4: Low-odor application during off-hours"
+        ],
+        "benefits": [
+          "Reduces worker compensation claims from slips",
+          "Meets ADA requirements for public spaces",
+          "Withstands daily industrial cleaning",
+          "Custom color-coding for safety zones"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can my business reopen after application?",
+            "answer": "Our fast-cure system allows light foot traffic in 12 hours and full equipment loading in 36 hours - we've completed overnight installations for Target Corporation's distribution centers."
+          },
+          {
+            "question": "Do you handle floor markings and wayfinding?",
+            "answer": "Yes - we digitally print durable lane markings, hazard areas, and logos using epoxy-based inks that withstand forklift traffic better than paint."
+          },
+          {
+            "question": "Can you match our brand colors exactly?",
+            "answer": "Our color-matching system uses Pantone references - we recently matched the exact Cub Foods green for a new supermarket's receiving area."
+          }
+        ]
+      },
+      {
+        "slug": "decorative-flake-flooring",
+        "name": "Decorative Flake Flooring",
+        "shortDescription": "Vibrant, durable finishes that brighten Minnesota's gray winters.",
+        "description": "Transform dreary basement floors or dated garage surfaces with our color flake systems. Using premium polymer flakes from Germany, we create custom blends that reflect your style - from subtle neutrals for Maple Grove's modern farmhouses to bold primary colors for Uptown's contemporary lofts.\n\nThe process begins with a tinted base coat that provides consistent color if flakes ever wear (unlike cheaper methods that reveal gray concrete underneath). We then broadcast thousands of metallic, matte, or iridescent flakes before sealing with a crystal-clear urethane. The result outlasts Minnesota seasons without yellowing from UV exposure - a common issue with inferior acrylic sealers used by competitors.",
+        "process": [
+          "Step 1: Color consultation with physical flake samples",
+          "Step 2: Base coat application matching dominant flake color",
+          "Step 3: Precision flake broadcasting for even distribution",
+          "Step 4: UV-resistant aliphatic urethane topcoat"
+        ],
+        "benefits": [
+          "Hides minor cracks and imperfections",
+          "Provides cushioning underfoot",
+          "Reflects light in windowless spaces",
+          "Easy to spot-clean from muddy paw prints"
+        ],
+        "faq": [
+          {
+            "question": "How do you choose flake sizes?",
+            "answer": "We recommend smaller flakes (1/16\") for intricate spaces like laundry rooms where detail matters, and larger flakes (1/4\") for open garages where you want bold visual impact from a distance."
+          },
+          {
+            "question": "Will the colors fade in my sunroom?",
+            "answer": "Our aliphatic urethane contains advanced UV blockers - we guarantee less than 5% color shift after 10 years, even in south-facing Four Seasons rooms."
+          },
+          {
+            "question": "Can I change the color later?",
+            "answer": "Yes - unlike solid colors, our flake system allows easy updates. We simply apply a new base coat and different flakes without complete removal - we recently transformed a client's pink basement to navy blue in one day."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-repair",
+        "name": "Concrete Repair & Leveling",
+        "shortDescription": "Fixes for Minnesota's frost-heaved and spalled concrete.",
+        "description": "Before applying any decorative coating, we address the structural issues unique to our region. The freeze-thaw cycle destroys 60% of Twin Cities concrete within 15 years. Our polyurethane foam injection lifts sunken slabs without demolition, while polymer-modified repair mortars restore edges damaged by snowplows.\n\nFor Northeast Minneapolis' historic warehouse conversions, we use precision grinding to eliminate trip hazards while preserving original concrete character. In new Maple Grove developments, we apply shrinkage-compensating overlays that prevent the hairline cracks common in fast-track construction. Every repair includes thermal imaging to detect voids and moisture channels invisible to the naked eye - because coating over problems guarantees failure in our climate.",
+        "process": [
+          "Step 1: Ground-penetrating radar scan for voids",
+          "Step 2: Polyurethane foam injection for lifting",
+          "Step 3: Steel-reinforced edge repairs",
+          "Step 4: Permeability testing before coatings"
+        ],
+        "benefits": [
+          "Prevents recurring damage from frost heave",
+          "Restores proper drainage slope",
+          "Eliminates icy low spots in winter",
+          "Prepares surface for long-lasting coatings"
+        ],
+        "faq": [
+          {
+            "question": "Can you fix my crumbling garage apron?",
+            "answer": "Yes - we replace deteriorated edges with steel-fiber reinforced concrete that withstands snowplow blades and salt exposure better than original material."
+          },
+          {
+            "question": "How long until I can park on repaired slabs?",
+            "answer": "Our fast-set formulations allow vehicle traffic in 4 hours - critical for Minnesota winters when garages can't be out of service for days."
+          },
+          {
+            "question": "Will repairs match my existing concrete?",
+            "answer": "We custom-tint repair materials to blend seamlessly - our color database includes exact matches for common Twin Cities concrete mixes from every decade since 1950."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Garage Floor Epoxy",
+        "text": "After two winters, my old epoxy floor in Linden Hills was peeling from salt damage. Horizon installed their ArcticShield system right before the polar vortex hit - it's now survived -25°F mornings without a single crack. The blue metallic flakes make shoveling snow almost enjoyable!",
+        "date": "2025-02-15"
+      },
+      {
+        "name": "Marta S.",
+        "rating": 5,
+        "service": "Basement Floor Coating",
+        "text": "Our 1920s St. Paul basement used to flood every spring. Horizon's team not only coated the floor but installed a hidden perimeter drainage system. Now our historic home has a functional rec room that stays dry even during April thaws. Worth every penny.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Devon W.",
+        "rating": 5,
+        "service": "Decorative Flake Flooring",
+        "text": "I run a yoga studio in Uptown and needed something durable yet beautiful. Horizon created a custom blend of lavender and silver flakes that cushions falls while being easy to sanitize. Clients constantly compliment how it sparkles under our pendant lights.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Lars N.",
+        "rating": 5,
+        "service": "Concrete Repair",
+        "text": "Our Eden Prairie driveway had a 3\" sinkhole from frost heave. Horizon's foam injection lifted it perfectly level in 90 minutes - no heavy equipment tearing up our landscaping. Two winters later, it hasn't budged despite the extreme temperature swings.",
+        "date": "2024-10-18"
+      },
+      {
+        "name": "Tami K.",
+        "rating": 5,
+        "service": "Commercial Epoxy",
+        "text": "As operations manager for a Plymouth industrial bakery, I worried about grease and constant washdowns destroying our floors. Horizon's chemical-resistant epoxy with slip-resistant texture has cut our mopping time in half while eliminating employee slips for 18 months running.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Garage Floor Epoxy",
+        "text": "The crew transformed our Maple Grove garage just before car season. They accommodated our collection of vintage Corvettes by working around lifts and cabinets. The black epoxy with red flakes makes oil drips easy to spot and clean - crucial for car shows.",
+        "date": "2024-08-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Minneapolis Epoxy Flooring Experts | Horizon Epoxy Flooring",
+        "description": "Premium epoxy flooring solutions designed for Minnesota's extreme climate. Serving Minneapolis, St. Paul, and surrounding communities since 2012."
+      },
+      "about": {
+        "title": "About Our Minneapolis Epoxy Flooring Company",
+        "description": "Learn how Horizon Epoxy Flooring's specialized cold-climate formulas protect Twin Cities homes from winter damage and summer humidity."
+      },
+      "services": {
+        "title": "Epoxy Flooring Services in Minneapolis | Horizon",
+        "description": "Durable garage, basement, and commercial epoxy flooring solutions engineered for Minnesota's freeze-thaw cycles and heavy snow loads."
+      },
+      "contact": {
+        "title": "Contact Horizon Epoxy Flooring in Minneapolis",
+        "description": "Schedule your free epoxy flooring consultation with our Minneapolis team. Serving the Twin Cities metro since 2012."
+      },
+      "reviews": {
+        "title": "Minneapolis Epoxy Flooring Reviews | Horizon",
+        "description": "See why Twin Cities homeowners and businesses trust Horizon Epoxy Flooring for climate-resistant floor solutions."
+      },
+      "service-areas": {
+        "title": "Minneapolis Epoxy Flooring Service Areas",
+        "description": "Proudly providing premium epoxy flooring services across Minneapolis, St. Paul, and surrounding communities."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "St. Paul",
+        "slug": "st-paul-mn",
+        "state": "MN",
+        "content": "Horizon Epoxy Flooring proudly serves St. Paul, Minnesota, providing durable and stylish epoxy flooring solutions for homes and businesses. With its historic Victorian-era homes along Summit Avenue, St. Paul’s architecture demands flooring that complements its timeless charm while standing up to extreme cold winters. Our epoxy coatings are designed to resist sub-zero temperatures, preventing cracks and wear. Whether you’re restoring a historic property or upgrading a modern space, our team delivers seamless, high-gloss finishes that enhance both aesthetics and functionality.",
+        "localContext": "St. Paul is known for its historic Victorian homes and harsh winters, requiring flooring that balances beauty and resilience.",
+        "nearbyAreas": [
+          "Minneapolis",
+          "Roseville",
+          "Maplewood"
+        ]
+      },
+      {
+        "city": "Plymouth",
+        "slug": "plymouth-mn",
+        "state": "MN",
+        "content": "Horizon Epoxy Flooring is a trusted provider of epoxy flooring solutions in Plymouth, MN, catering to its established suburban homes from the 1970s and 1980s. Plymouth’s homeowners appreciate durable, low-maintenance flooring that can withstand extreme cold winters. Our epoxy coatings are ideal for garages, basements, and living spaces, offering slip resistance and thermal stability. With customizable colors and finishes, we help Plymouth residents transform their floors into stylish, long-lasting surfaces.",
+        "localContext": "Plymouth features well-established suburban homes, where homeowners prioritize durability and ease of maintenance.",
+        "nearbyAreas": [
+          "Maple Grove",
+          "Minnetonka",
+          "Wayzata"
+        ]
+      },
+      {
+        "city": "Eden Prairie",
+        "slug": "eden-prairie-mn",
+        "state": "MN",
+        "content": "Eden Prairie’s planned developments from the 1980s and 1990s benefit from Horizon Epoxy Flooring’s high-performance epoxy solutions. Our coatings are perfect for modern homes and commercial spaces, offering resistance to extreme cold and heavy foot traffic. Whether you’re upgrading a basement, garage, or retail space, our epoxy floors provide a sleek, easy-to-clean surface that enhances durability and style. Eden Prairie residents trust us for flawless installations tailored to their needs.",
+        "localContext": "Eden Prairie’s planned communities value modern, low-maintenance flooring solutions that endure harsh winters.",
+        "nearbyAreas": [
+          "Bloomington",
+          "Shakopee",
+          "Chanhassen"
+        ]
+      },
+      {
+        "city": "Maple Grove",
+        "slug": "maple-grove-mn",
+        "state": "MN",
+        "content": "Horizon Epoxy Flooring delivers top-tier epoxy flooring services to Maple Grove, MN, where 1990s-2000s family developments dominate the landscape. Our epoxy coatings are ideal for active households, offering scratch resistance, moisture protection, and thermal stability in sub-zero winters. From garages to kitchens, we provide seamless, high-gloss finishes that elevate any space. Maple Grove families rely on us for durable, stylish floors that stand the test of time.",
+        "localContext": "Maple Grove’s family-oriented neighborhoods need flooring that combines durability with aesthetic appeal.",
+        "nearbyAreas": [
+          "Plymouth",
+          "Brooklyn Park",
+          "Rogers"
+        ]
+      },
+      {
+        "city": "Bloomington",
+        "slug": "bloomington-mn",
+        "state": "MN",
+        "content": "Bloomington’s 1960s-70s ranch homes are a perfect match for Horizon Epoxy Flooring’s durable and stylish solutions. Our epoxy coatings withstand extreme cold winters, preventing cracks and wear while adding a modern touch to classic homes. Whether it’s a basement, garage, or living area, we provide slip-resistant, easy-to-clean surfaces that enhance both safety and aesthetics. Bloomington homeowners trust us for reliable, long-lasting flooring upgrades.",
+        "localContext": "Bloomington’s ranch-style homes benefit from epoxy flooring that blends durability with contemporary design.",
+        "nearbyAreas": [
+          "Eden Prairie",
+          "Richfield",
+          "Edina"
+        ]
+      },
+      {
+        "city": "Minneapolis",
+        "slug": "minneapolis-mn",
+        "state": "MN",
+        "content": "Horizon Epoxy Flooring serves Minneapolis, MN, with premium epoxy flooring solutions for both residential and commercial properties. Minneapolis’s diverse architecture and extreme winters demand flooring that’s both resilient and stylish. Our epoxy coatings resist temperature fluctuations, heavy foot traffic, and moisture, making them ideal for basements, garages, and retail spaces. Whether you’re in a loft downtown or a suburban home, we deliver flawless, long-lasting results.",
+        "localContext": "Minneapolis’s varied architecture and harsh winters require versatile, high-performance flooring solutions.",
+        "nearbyAreas": [
+          "St. Paul",
+          "Edina",
+          "Brooklyn Center"
+        ]
+      },
+      {
+        "city": "Roseville",
+        "slug": "roseville-mn",
+        "state": "MN",
+        "content": "Roseville residents trust Horizon Epoxy Flooring for durable, attractive epoxy flooring solutions. Our coatings are designed to endure Minnesota’s extreme cold winters, preventing cracks and wear in garages, basements, and living spaces. With customizable finishes, we help Roseville homeowners and businesses achieve sleek, easy-to-maintain floors that enhance any property. Our team ensures seamless installations tailored to your needs.",
+        "localContext": "Roseville’s mix of residential and commercial properties benefits from epoxy flooring’s versatility and durability.",
+        "nearbyAreas": [
+          "St. Paul",
+          "Shoreview",
+          "Falcon Heights"
+        ]
+      },
+      {
+        "city": "Edina",
+        "slug": "edina-mn",
+        "state": "MN",
+        "content": "Horizon Epoxy Flooring provides high-end epoxy flooring solutions in Edina, MN, where homeowners value quality and style. Our coatings resist extreme cold and heavy use, making them perfect for garages, basements, and high-traffic areas. Edina’s upscale homes deserve floors that combine durability with elegance, and our seamless, glossy finishes deliver just that. Trust us for flawless installations that elevate your space.",
+        "localContext": "Edina’s affluent neighborhoods demand flooring that balances luxury with long-lasting performance.",
+        "nearbyAreas": [
+          "Bloomington",
+          "Minneapolis",
+          "Richfield"
+        ]
+      },
+      {
+        "city": "Brooklyn Park",
+        "slug": "brooklyn-park-mn",
+        "state": "MN",
+        "content": "Brooklyn Park homeowners and businesses rely on Horizon Epoxy Flooring for resilient, stylish epoxy solutions. Our coatings withstand Minnesota’s harsh winters, preventing damage from freezing temperatures and moisture. Whether it’s a garage, basement, or commercial space, we provide durable, easy-to-clean surfaces that enhance functionality and aesthetics. Brooklyn Park’s diverse properties benefit from our tailored epoxy installations.",
+        "localContext": "Brooklyn Park’s growing community needs flooring that offers both durability and modern appeal.",
+        "nearbyAreas": [
+          "Maple Grove",
+          "Plymouth",
+          "Coon Rapids"
+        ]
+      },
+      {
+        "city": "Shakopee",
+        "slug": "shakopee-mn",
+        "state": "MN",
+        "content": "Horizon Epoxy Flooring serves Shakopee, MN, with durable epoxy flooring solutions for homes and businesses. Shakopee’s mix of historic and modern properties benefits from our coatings, which resist extreme cold and heavy use. Whether you’re upgrading a garage, basement, or retail space, our seamless finishes provide long-lasting protection and style. Shakopee residents trust us for reliable, high-quality installations.",
+        "localContext": "Shakopee’s blend of historic and contemporary properties requires versatile, resilient flooring.",
+        "nearbyAreas": [
+          "Eden Prairie",
+          "Prior Lake",
+          "Chaska"
+        ]
+      },
+      {
+        "city": "Wayzata",
+        "slug": "wayzata-mn",
+        "state": "MN",
+        "content": "Wayzata’s upscale homes and businesses choose Horizon Epoxy Flooring for premium epoxy solutions. Our coatings withstand extreme winters and heavy foot traffic, offering both durability and elegance. Whether it’s a lakeside garage or a high-end retail space, our seamless, high-gloss finishes enhance any property. Wayzata clients trust us for flawless, long-lasting results.",
+        "localContext": "Wayzata’s luxury properties demand flooring that combines sophistication with rugged durability.",
+        "nearbyAreas": [
+          "Plymouth",
+          "Minnetonka",
+          "Orono"
+        ]
+      },
+      {
+        "city": "Woodbury",
+        "slug": "woodbury-mn",
+        "state": "MN",
+        "content": "Woodbury residents and businesses trust Horizon Epoxy Flooring for durable, stylish epoxy solutions. Our coatings resist Minnesota’s extreme cold, preventing cracks and wear in garages, basements, and commercial spaces. Woodbury’s modern developments benefit from our seamless, easy-to-clean finishes that enhance both aesthetics and functionality. We deliver reliable, high-quality installations tailored to your needs.",
+        "localContext": "Woodbury’s newer developments prioritize flooring that’s both durable and visually appealing.",
+        "nearbyAreas": [
+          "Cottage Grove",
+          "Maplewood",
+          "Oakdale"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "basement-floor-coating": "/images/service-basement-floor-coating.webp",
+      "commercial-epoxy": "/images/service-commercial-epoxy.webp",
+      "concrete-repair": "/images/service-concrete-repair.webp",
+      "garage-floor-epoxy": "/images/service-garage-floor-epoxy.webp",
+      "decorative-flake-flooring": "/images/service-decorative-flake-flooring.webp"
+    },
+    "servicesResponsive": {
+      "basement-floor-coating": {
+        "src": "/images/service-basement-floor-coating.webp",
+        "srcset": "/images/service-basement-floor-coating-400w.webp 400w, /images/service-basement-floor-coating-800w.webp 800w, /images/service-basement-floor-coating-1200w.webp 1200w, /images/service-basement-floor-coating.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-epoxy": {
+        "src": "/images/service-commercial-epoxy.webp",
+        "srcset": "/images/service-commercial-epoxy-400w.webp 400w, /images/service-commercial-epoxy-800w.webp 800w, /images/service-commercial-epoxy-1200w.webp 1200w, /images/service-commercial-epoxy.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-repair": {
+        "src": "/images/service-concrete-repair.webp",
+        "srcset": "/images/service-concrete-repair-400w.webp 400w, /images/service-concrete-repair-800w.webp 800w, /images/service-concrete-repair-1200w.webp 1200w, /images/service-concrete-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "garage-floor-epoxy": {
+        "src": "/images/service-garage-floor-epoxy.webp",
+        "srcset": "/images/service-garage-floor-epoxy-400w.webp 400w, /images/service-garage-floor-epoxy-800w.webp 800w, /images/service-garage-floor-epoxy-1200w.webp 1200w, /images/service-garage-floor-epoxy.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "decorative-flake-flooring": {
+        "src": "/images/service-decorative-flake-flooring.webp",
+        "srcset": "/images/service-decorative-flake-flooring-400w.webp 400w, /images/service-decorative-flake-flooring-800w.webp 800w, /images/service-decorative-flake-flooring-1200w.webp 1200w, /images/service-decorative-flake-flooring.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
